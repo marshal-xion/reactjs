@@ -1,0 +1,32 @@
+There are three core concepts of React 
+Components
+Props
+State
+
+
+Components
+User interfaces can be broken down into smaller building blocks called components.
+
+Components allow you to build self-contained, reusable snippets of code. If you think of components as LEGO bricks, you can take these individual bricks and combine them together to form larger structures. If you need to update a piece of the UI, you can update the specific component or brick.
+
+
+Props
+
+But what if you want to pass different text or you don't know the information ahead of time because you're fetching data from an external source?
+
+Regular HTML elements have attributes that you can use to pass pieces of information that change the behavior of those elements. For example, changing the src attribute of an <img> element changes the image that is shown. Changing the href attribute of an <a> tag changes the destination of the link.
+
+In the same way, you can pass pieces of information as properties to React components. These are called props. Take for instance, the possible variations of a button:
+
+Similar to a JavaScript function, you can design components that accept custom arguments (or props) that change the component's behavior or what is visibly shown when it's rendered to the screen. Then, you can pass down these props from parent components to child components.
+
+
+
+State
+
+React has a set of functions called hooks. Hooks allow you to add additional logic such as state to your components. You can think of state as any information in your UI that changes over time, usually triggered by user interaction.
+
+You can use state to store and increment the number of times a user has clicked the "Like" button. In fact, the React hook used to manage state is called: useState()
+
+Add useState() to your project. It returns an array, and you can access and use those array values inside your component using array destructuring:
+
