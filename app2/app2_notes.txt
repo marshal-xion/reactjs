@@ -1,0 +1,17 @@
+React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. 
+A component can be as small as a button, or as large as an entire page.
+React components are JavaScript functions that return markup:
+
+
+create new project with vibe -
+
+type below in the project directory in cmd
+npm create vite@latest app2 -- --template react
+
+then type
+
+cd app2
+npm install
+npm run dev
+
+then run local host url in the browser.
