@@ -38,8 +38,6 @@ some variable from your code and display it to the user.
 
 
 
-Here navigation is added using <Routes> component
-
 All routes are declared in <Routes> </Routes> component in the App.jsx main function
 
 Routes are imported from react-router-dom package.
